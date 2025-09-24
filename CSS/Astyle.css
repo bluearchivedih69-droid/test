@@ -1,0 +1,43 @@
+body{
+    background-color: whitesmoke;
+}
+b {
+    color: pink;
+    background-color: rgb(28, 209, 131);
+}
+p {
+    color: rgb(198, 18, 156);
+}
+h1{
+    background-color: aqua;
+}
+/*đây là selector theo class đã đặt bên html*/
+.le{
+    background-color: rgb(56, 162, 214);
+}
+.chan{
+    background-color: greenyellow;
+}
+/* đây là selector theo id*/
+#one{
+    background-color: blueviolet; color: aliceblue  ;
+}
+#two{
+    background-color: aquamarine; color: burlywood;
+}
+/*font-chữ*/
+/*đối với thẻ div nếu trong thẻ div có các thẻ h1,p.. thì 
+muốn thay đổi toàn bộ div thì ghi div{
+
+                                    }
+nếu một vài thẻ thay đổi thì div tên thẻ*/
+div{
+ font-family: sans-serif, Lucida Sans; /*nếu như font đầu bị lỗi thì thay bằng font dự phòng*/
+ font-size: 10px;
+ font-style: italic; /*kiểu chữ*/
+ font-weight: border;/*độ rộng, có thể thay bằng các giá trị 100 200 300...*/
+ text-decoration: solid underline; /*trang trí cho chữ, có thể là gạch chân ...*/
+}
+div p{
+    background-color: aquamarine;
+}

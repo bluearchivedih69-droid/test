@@ -1,0 +1,13 @@
+
+body{
+    font-family: sans-serif,fantasy;
+    font-style: italic;
+}
+
+td{
+    border-radius: 5px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

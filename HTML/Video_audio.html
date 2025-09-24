@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Thẻ audio</h1>
+    <!--đây là thẻ tự đóng nên có thể bỏ luôn thẻ đóng
+    controls là attribute điều khiển kiểu thêm cái nút phát nhạc
+    loop là tự phát nhạc, autoplay tự chơi khi vào web , muted là tắt tiếng -->
+   <audio loop autoplay muted controls src="audio/SnapTik.Net_7498824692942359830.mp3"></audio>
+   <!-- audio còn có loại dự phòng cái này thì cần phải có thẻ đóng
+    nếu như src đầu tiên bị hỏng thì nó sẽ thay thế bằng cái dự phòng phía dưới-->
+    <audio controls loop>
+        <source src="audio/SnapTik.Net_7194738619003784453.mp3"> 
+        <source src="audio/SnapTik.Net_7498824692942359830.mp3">
+    </audio>
+    <h1><br>Thẻ video</h1>
+    <!--các attribute đều giống như audio cũng có cái dự phòng của nó-->
+    <video controls src ="video/Download.mp4" width="300"></video>
+    <video controls width="300">
+        <source src="video/Download.m4">
+        <source src="video/Download (1).mp4">
+    </video>
+    
+</body>
+</html>

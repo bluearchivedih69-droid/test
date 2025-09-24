@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Đăng Nhập</h1>
+    <!--form: là phương tiện cho ng dùng nhập dữ liệu và dữ liệu đấy đuọc gửi đến nơi sử lí như SQL-->
+    <form method="POST" action="n"> <!--action = "đích đến" nơi nó sẽ gửi dữ liệu đã nhập bên dưới về nơi sử lí khi ấn submit -->
+        <div>
+            <label for="fname">first name: </label> <!--Đây là thẻ <label> trong HTML, dùng để gắn nhãn (label) 
+                                                        cho một ô nhập liệu (input)
+                                                        for="fname" liên kết label với input có id là fname-->
+            <input type="text" id="fname" name="fname"> <!--nơi người dùng nhâp vào-->
+        </div>
+        <div> 
+            <label for="pw">password: </label>
+            <input type="number" id="pw" name="pw">
+        </div>
+        <input type="submit">
+        <input type="reset">
+        <div>
+           <select name = "major"> <!--lực chọn-->
+            <option value="CNTT"> CNTT </option>
+            <option value="KTPM"> KTPM </option>
+            <option value="AI">AI</option>
+            <option value="IOT">IOT</option>
+           </select>
+        </div>
+        <div> <!--tạo ra các ô chọn, thường nó sẽ tick vào hết nên cái thuộc tính name ="role" 
+            vào chỉ để chọn 1 cái-->
+            <input type="radio" name = "role" value="Student"> Student
+            <input type="radio" name ="role" value="teacher"> teacher
+            <input type="radio" name= "role" value="staff"> staff
+        </div>
+    </form>
+</body>
+
+</html>

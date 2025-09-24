@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--iframe dùng để nhúng một nội dung nào đó vào 
+        trang web hiện tại và có thể áp dụng đc với file-->
+    <iframe width="400"
+        src="https://www.bing.com/search?pglt=299&q=fb&cvid=da0ec2d60f6e496997d76057ec26091b&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAuGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEEUYPDIGCAcQRRg8MgYICBBFGDzSAQgzMTk3ajBqMagCALACAA&FORM=ANNTA1&PC=U531"
+        frameborder=0"></iframe>
+    <!--src tuỳ vào web nó sẽ có một link nhúng riêng, nếu chỉ copy bình thường thì sẽ kh truy cập vào được-->
+    <h1>Button</h1>
+    <button style=" border-radius: 5px; background-color: aquamarine;">
+        <!--border: điều chỉnh viền, border-radius: điều chỉnh  bo góc-->
+        click me
+    </button>
+    <!--khi ấn cái button nó sẽ thực thi lệnh nào đó trong onclick, thường thì JS sẽ thực hiện cái này-->
+    <button onclick="changeText()" style="border-radius: 5px; background-color: palevioletred;">
+        click me
+    </button>
+    <!--hàm changeText-->
+    <h1 id="h1id">HELLO</h1>
+    <script>
+        changeText = () => {
+            document.getElementById("h1id").innerHTML = "GOODBYE";
+        }
+    </script>
+
+</body>
+
+</html>
