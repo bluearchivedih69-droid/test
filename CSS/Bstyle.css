@@ -1,45 +1,71 @@
-body{
-    
-    background:linear-gradient( to left, aquamarine, rgb(98, 216, 87));
-    background-image: url("../HTML/images/Can\ Cats\ Be\ Really\ Grumpy\ or\ Are\ They\ Just\ Playing_.jpg");
+body {
+
+    background: linear-gradient(to left, aquamarine, rgb(98, 216, 87));
+    /*background-image: url("../HTML/images/Can\ Cats\ Be\ Really\ Grumpy\ or\ Are\ They\ Just\ Playing_.jpg");*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     font-family: sans-serif;
 }
-.Pdiv{
-    
-    border:2px solid black;
+
+.Pdiv {
+
+    border: 2px solid black;
     width: auto;
 }
-.Cdiv1{
+
+.Cdiv1 {
     background-color: burlywood;
 }
-.Cdiv2{
-    background:linear-gradient( to right, rgb(220, 220, 220), rgb(28, 242, 8));
+
+.Cdiv2 {
+    background: linear-gradient(to right, rgb(220, 220, 220), rgb(28, 242, 8));
     background-repeat: no-repeat;
     background-attachment: fixed;
     border-top: 2px solid black;
     width: auto;
 }
-.Cdiv3{
-     border-top: 2px solid black;
-     width: auto;
+
+.Cdiv3 {
+    border-top: 2px solid black;
+    width: auto;
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
     gap: 10px;
 }
-li{
-    
-    background:linear-gradient( to left, rgb(2, 115, 190), rgb(223, 75, 159));
+
+li {
+
+    background: linear-gradient(to left, rgb(2, 115, 190), rgb(223, 75, 159));
     background-repeat: no-repeat;
     background-attachment: fixed;
     border: 1px solid black;
     border-radius: 5px;
     width: auto;
     padding: 15px;
-   margin: 0px;
+    margin: 0px;
+}
+/*Margin-Padding*/
+#box1 {
+    background: linear-gradient(to top, white, rgb(58, 58, 211));
+    border: 2px solid black;
+    width: 200px;
+    height: 110px;
+    margin-top: 10px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#box2 {
+    background: linear-gradient(to top, rgb(197, 32, 166), rgb(58, 58, 211));
+    border: 2px solid black;
+    width: 200px;
+    height: 110px;
+    margin-top: 10px;
+    padding-top: 100px;
+    text-align: center;
 }

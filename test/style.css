@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgbanner{
+    background-color: #7B4A00;
+    height: 40px;
+}
+.banner{  
+    transform: translateX(12%);
+    border-right: 10px black;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+    border:none solid black;
+    width: 80%;
+    height: 100%;
+    background:linear-gradient(to bottom,rgb(227, 167, 0),rgb(3, 0, 0));
+}
+
+#text{
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}   
+.menu{
+    height: auto;
+    background-color: #FFD600;
+}
+.main_menu{
+    align-items: center;
+    display: flex;
+
+}
+ul{
+    font-family:sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 15px
+}
+li{
+    font-size: larger;
+    border: none;
+}

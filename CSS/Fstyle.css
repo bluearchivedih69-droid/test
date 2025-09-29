@@ -1,0 +1,23 @@
+body {
+
+    background: linear-gradient(to bottom, aquamarine, rgb(98, 216, 87));
+    /*background-image: url("../HTML/images/Can\ Cats\ Be\ Really\ Grumpy\ or\ Are\ They\ Just\ Playing_.jpg");*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+@media all and (max-width: 768px){ 
+    h1{
+        border: 2px solid black;
+        color: red;
+    }
+}
+@media all and (max-width: 320px){ 
+    h1{
+        border: 5px solid rgb(71, 151, 27);
+        color: rgb(15, 191, 204);
+    }
+}

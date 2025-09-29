@@ -1,0 +1,29 @@
+body{
+
+    background: linear-gradient(to bottom, aquamarine, rgb(98, 216, 87));
+    /*background-image: url("../HTML/images/Can\ Cats\ Be\ Really\ Grumpy\ or\ Are\ They\ Just\ Playing_.jpg");*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+button{
+    width: 100px;
+    height: 50px;
+}
+button:hover{
+    background-color: burlywood;
+}
+button:active{
+    background-color: aqua;
+}
+ul{
+    padding-right: 0px;
+    border: 2px solid black;
+    list-style: none;
+    padding-right: 10px;
+}
+li:nth-child(odd){
+    color: red;
+}
